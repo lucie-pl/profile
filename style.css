@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-color: #b9e8d4;
+  color: black;
+}
+p {
+  font-family: montserrat;
+}
+h1 {
+  font-family: lobster;
+  color: #610840;
+}
+h2, h3 {
+  line-height: 12px;
+}
+
+.social {
+  size: 30px;
+}
+
+.titles {
+  font-size: 22px;
+  font-weight: 850;
+}
+
+.links {
+  font-size: 18px;
+  font-weight: 850;
+}
+
+.list_inline > li {
+  display: inline-block;
+  text-align: center;
+}
+
+.list_inline {
+ list-style: none;
+  padding-left: 0px;
+}
+
+.social:hover {
+  opacity: 0.3;
+  transition: 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+  color: #e63946;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.card {
+  background-color: #f1faee;
+  margin: 15px auto;
+  padding: 18px;
+  border-radius: 7px;
+  border: 1px dotted #457b9d;
+  width: 500px;
+}
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 45%;
+  border: 0.5px dashed #1d3557;
+  box-shadow: 3px 3px 3px grey;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
